@@ -249,3 +249,122 @@ body {
   color: #f6f4f5;
 }
 
+.games__section-title {
+  margin-bottom: 50px;
+}
+
+.games {
+  margin-bottom: 100px;
+}
+
+.games__inner {
+  display: flex;
+}
+
+.games__descr {
+  max-width: 300px;
+}
+
+.games__title-text {
+  margin-bottom: 10px;
+}
+
+.games__descr-text {
+  margin-bottom: 30px;
+}
+
+.games__link {
+  display: inline-block;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.games__link span {
+  display: inline-block;
+  padding: 15px 47px;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.games__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.games__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+}
+
+.games__item img {
+  margin-bottom: 10px;
+}
+
+.games__item-title {
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: 400;
+  color: #070707;
+}
+
+.games__item-text {
+  margin-bottom: 45px;
+}
+
+.games__item-link {
+  margin-top: auto;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buy {
+  position: relative;
+  margin-bottom: 100px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.buy__title {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  font-weight: 700;
+  font-size: 400px;
+  line-height: 484px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  animation: line-text-oculus 6s linear 1s infinite;
+}
+
+@keyframes line-text-oculus {
+  from {
+    transform: translateX(115%);
+    transform-origin: left center;
+  }
+  to {
+    transform: translateX(-115%);
+    transform-origin: right center;
+  }
+}
+
+.buy__img {
+  margin-bottom: 30px;
+}
+
+.buy .buy-btn {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
