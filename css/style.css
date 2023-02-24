@@ -368,3 +368,26 @@ body {
   margin-bottom: 10px;
 }
 
+.box-set {
+  margin-bottom: 100px;
+}
+
+.box-set__title {
+  margin-bottom: 50px;
+}
+
+.box-set__inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 26px 20px;
+}
+
+.box-set__item--one {
+  grid-row: 1 / -1;
+}
+
+.box-set__img {
+  margin-bottom: 10px;
+}
+
