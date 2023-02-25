@@ -391,3 +391,30 @@ body {
   margin-bottom: 10px;
 }
 
+.promo {
+  margin-bottom: 100px;
+}
+
+.promo__inner {
+  position: relative;
+  text-align: center;
+}
+
+.promo__img {
+  display: block;
+}
+
+.promo__btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  font-weight: 700;
+  color: #fff;
+}
+
