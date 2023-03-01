@@ -534,3 +534,19 @@ body {
   align-self: end;
 }
 
+.page-footer {
+  min-height: 100px;
+  margin-bottom: 40px;
+  border-top: 1px solid #CACAD6;
+  border-bottom: 1px solid #CACAD6;
+}
+
+.main-nav--footer {
+  min-height: 100px;
+}
+
+.social__list {
+  display: flex;
+  gap: 20px;
+  justify-self: end;
+}
