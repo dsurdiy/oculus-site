@@ -550,3 +550,59 @@ body {
   gap: 20px;
   justify-self: end;
 }
+
+
+@media (max-width: 832px) {
+  .hero .container {
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 70px;
+  }
+
+  .hero__subtitle {
+    font-size: 30px;
+  }
+
+  .hero__text {
+    margin-bottom: 35px;
+  }
+
+  .buy-btn {
+    margin: 0 auto 10px;
+  }
+}
+
+
+@media (max-width: 632px) {
+  .hero__title {
+    font-size: 55px;
+  }
+
+  .buy-btn {
+    flex-direction: column;
+  }
+
+  .buy-btn__text {
+    padding: 15px 100px;
+  }
+
+  .buy-btn__price {
+    padding: 15px 95px;
+  }
+}
+
+
+@media (max-width: 532px) {
+  .hero__subtitle {
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .hero__title {
+    font-size: 48px;
+  }
+}
