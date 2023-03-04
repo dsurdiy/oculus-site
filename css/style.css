@@ -575,6 +575,14 @@ body {
     flex-direction: row;
     margin-bottom: 30px;
   }
+
+  .games__inner {
+    display: block;
+  }
+
+  .games__descr {
+    margin-bottom: 30px;
+  }
 }
 
 
@@ -611,6 +619,27 @@ body {
   .tabs__buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .games__section-title {
+    margin-bottom: 30px;
+  }
+
+  .games__title-text {
+    margin-bottom: 10px;
+  }
+
+  .games__descr {
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+  .games__descr-text {
+    margin-bottom: 10px;
+  }
+
+  .games__list {
+    gap: 10px;
   }
 }
 
@@ -650,7 +679,13 @@ body {
   }
 
   .tabs__content-item {
+    position: static;
     display: block;
+    height: 0;
+  }
+
+  .tabs__content-item--active {
+    height: auto;
   }
 
   .tabs__content-img {
@@ -663,6 +698,18 @@ body {
     width: auto;
     height: 250px;
     margin-top: 20px;
+  }
+
+  .games {
+    margin-bottom: 70px;
+  }
+
+  .games__list {
+    grid-template-columns: 1fr;
+  }
+
+  .games__item {
+    max-width: initial;
   }
 }
 
