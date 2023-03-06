@@ -336,17 +336,14 @@ body {
 .buy__title {
   position: absolute;
   z-index: -1;
-  right: 0;
-  left: 0;
-  bottom: 10px;
   font-weight: 700;
   font-size: 400px;
-  line-height: 484px;
+  line-height: 400px;
   background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.1;
-  animation: line-text-oculus 6s linear 1s infinite;
+  animation: line-text-oculus 8s linear 1s infinite;
 }
 
 @keyframes line-text-oculus {
@@ -710,6 +707,14 @@ body {
 
   .games__item {
     max-width: initial;
+  }
+
+  .buy {
+    margin-bottom: 70px;
+  }
+
+  .buy__title {
+    font-size: 300px;
   }
 }
 
