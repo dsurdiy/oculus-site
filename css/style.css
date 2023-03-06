@@ -716,6 +716,28 @@ body {
   .buy__title {
     font-size: 300px;
   }
+
+  .box-set {
+    margin-bottom: 70px;
+  }
+
+  .box-set__title {
+    margin-bottom: 30px;
+  }
+
+  .box-set__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-set__item--subtitle {
+    order: -1;
+  }
+
+  .box-set__text {
+    text-align: center;
+  }
 }
 
 
