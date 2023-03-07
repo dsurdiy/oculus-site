@@ -396,6 +396,11 @@ body {
 .promo__inner {
   position: relative;
   text-align: center;
+  min-height: 500px;
+  background-image: url(../images/promo-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .promo__img {
@@ -638,6 +643,10 @@ body {
   .games__list {
     gap: 10px;
   }
+
+  .promo__inner {
+    min-height: 400px;
+  }
 }
 
 
@@ -738,6 +747,10 @@ body {
   .box-set__text {
     text-align: center;
   }
+
+  .promo {
+    margin-bottom: 70px;
+  }
 }
 
 
@@ -776,5 +789,17 @@ body {
 
   .tabs__content-text h3 {
     font-size: 20px;
+  }
+
+  .box-set__inner {
+    gap: 15px;
+  }
+
+  .box-set__title {
+    margin-bottom: 15px;
+  }
+
+  .promo__inner {
+    min-height: 300px;
   }
 }
