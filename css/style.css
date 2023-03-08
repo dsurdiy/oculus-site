@@ -776,6 +776,22 @@ body {
   .accessories__item-title {
     font-size: 20px;
   }
+
+  .contacts {
+    margin-bottom: 70px;
+  }
+
+  .contacts__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-right: none;
+  }
+
+  .contacts__email {
+    align-self: initial;
+  }
 }
 
 
