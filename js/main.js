@@ -24,3 +24,10 @@ function openTab(evt) {
 
   activeTab.classList.add("tabs__content-item--active");
 }
+
+const burgerBtn = document.querySelector(".main-nav__btn");
+const menuList = document.querySelector(".menu-list");
+
+burgerBtn.addEventListener("click", () => {
+  menuList.classList.toggle("menu-list--active");
+})
